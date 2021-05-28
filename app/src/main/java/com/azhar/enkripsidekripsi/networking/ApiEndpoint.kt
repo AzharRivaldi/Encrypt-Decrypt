@@ -10,6 +10,6 @@ package com.azhar.enkripsidekripsi.networking
  */
 
 object ApiEndpoint {
-    var BASEURL_ENCRYPT = "https://hadi-api.herokuapp.com/api/base64?teks={encrypt}&method=encrypt"
-    var BASEURL_DECRYPT = "https://hadi-api.herokuapp.com/api/base64?teks={decrypt}&method=decrypt"
+    val BASEURL_ENCRYPT = "https://hadi-api.herokuapp.com/api/base64?teks={encrypt}&method=encrypt"
+    val BASEURL_DECRYPT = "https://hadi-api.herokuapp.com/api/base64?teks={decrypt}&method=decrypt"
 }
